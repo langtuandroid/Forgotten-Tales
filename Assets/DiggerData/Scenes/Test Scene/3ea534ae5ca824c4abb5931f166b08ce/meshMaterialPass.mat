@@ -11,16 +11,18 @@ Material:
   m_Shader: {fileID: 4800000, guid: 7e84d05393d3a4541ae56ebd3eeb4ade, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _TERRAIN_INSTANCED_PERPIXEL_NORMAL
   m_InvalidKeywords:
   - USING_HDRP_14_OR_ABOVE
   - _MASKMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2225
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -172,14 +174,14 @@ Material:
     - _Smoothness7: 0
     - _SpecularOcclusionMode: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 0
-    - _StencilRefGBuffer: 2
-    - _StencilWriteMask: 3
-    - _StencilWriteMaskDepth: 8
-    - _StencilWriteMaskGBuffer: 3
+    - _StencilRefDepth: 8
+    - _StencilRefGBuffer: 10
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskGBuffer: 15
     - _SupportDecals: 1
     - _TransparentZWrite: 0
-    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZWrite: 1
     m_Colors:
