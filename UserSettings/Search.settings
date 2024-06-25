@@ -8,6 +8,8 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"OpenInspectorPreview.66F56946" = "0"
+	"currentGroup.66F56946" = "settings"
 }
 providers = {
 	performance = {
