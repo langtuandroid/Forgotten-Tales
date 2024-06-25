@@ -51,9 +51,10 @@ MonoBehaviour:
     decalNormalBufferHP: 0
     msaaSampleCount: 1
     supportMotionVectors: 1
+    supportDataDrivenLensFlare: 1
     supportRuntimeAOVAPI: 0
     supportDitheringCrossFade: 1
-    supportTerrainHole: 0
+    supportTerrainHole: 1
     lightProbeSystem: 1
     probeVolumeMemoryBudget: 1024
     probeVolumeBlendingMemoryBudget: 128
@@ -151,6 +152,7 @@ MonoBehaviour:
       forcedPercentage: 100
       lowResTransparencyMinimumThreshold: 0
       rayTracingHalfResThreshold: 50
+      lowResSSGIMinimumThreshold: 0
     lowresTransparentSettings:
       enabled: 1
       checkerboardDepthBuffer: 1
@@ -290,9 +292,12 @@ MonoBehaviour:
   enableSRPBatcher: 1
   availableMaterialQualityLevels: -1
   m_DefaultMaterialQualityLevel: 4
-  diffusionProfileSettings: {fileID: 0}
+  diffusionProfileSettings: {fileID: 11400000, guid: 5aead7ebb2074754d825e3e8dfdfbc27,
+    type: 2}
   virtualTexturingSettings:
     streamingCpuCacheSizeInMegaBytes: 256
+    streamingMipPreloadTexturesPerFrame: 0
+    streamingPreloadMipCount: 1
     streamingGpuCacheSettings:
     - format: 0
       sizeInMegaBytes: 128
