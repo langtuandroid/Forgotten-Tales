@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: f47e75afed5942147aec2bac795d3f42
+  productGUID: 1d9076e5e69a6624a9790ce67acff50b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Forgotten Tales
+  productName: InTerraTest
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -473,43 +473,6 @@ PlayerSettings:
       m_Height: 36
       m_Kind: 0
       m_SubKind: 
-  - m_BuildTarget: tvOS
-    m_Icons:
-    - m_Textures: []
-      m_Width: 1280
-      m_Height: 768
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 800
-      m_Height: 480
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 400
-      m_Height: 240
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 4640
-      m_Height: 1440
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 2320
-      m_Height: 720
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 3840
-      m_Height: 1440
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 1920
-      m_Height: 720
-      m_Kind: 1
-      m_SubKind: 
   - m_BuildTarget: VisionOS
     m_Icons:
     - m_Textures: []
@@ -857,19 +820,19 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    PS4: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    PS5: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    QNX: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    Stadia: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    Standalone: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW;__DIGGER__;CREST_OCEAN;MAGICACLOTH2;TERRAINPACKAGE_EXIST;HDRPPACKAGE_EXIST
-    VisionOS: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    WebGL: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    XboxOne: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
-    tvOS: UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HD;ENVIRO_LW
+    Android: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    EmbeddedLinux: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    GameCoreXboxOne: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    Nintendo Switch: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    PS4: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    PS5: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    QNX: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    Stadia: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    Standalone: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;__DIGGER__;CREST_OCEAN;MAGICACLOTH2;TERRAINPACKAGE_EXIST;HDRPPACKAGE_EXIST
+    VisionOS: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    WebGL: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    XboxOne: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    tvOS: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -901,16 +864,16 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: ForgottenTales
+  metroPackageName: InTerraTest
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Forgotten Tales
+  metroApplicationDescription: InTerraTest
   wsaImages: {}
-  metroTileShortName: Forgotten Tales
+  metroTileShortName: InTerraTest
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -978,11 +941,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 8f9cf8ed-2a0b-43ce-8372-f8b7f9a65c0a
+  cloudProjectId: 420fc919-f943-4803-b0c5-f279b4d1dd46
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Forgotten Tales
-  organizationId: unity_1026409
+  projectName: InTerraTest
+  organizationId: zeratul12
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

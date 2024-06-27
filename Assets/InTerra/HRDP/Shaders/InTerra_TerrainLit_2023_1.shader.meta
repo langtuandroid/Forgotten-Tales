@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b396bcb365c68ec49b8424b9f4950d99
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196455
+  packageName: InTerra ~ Shaders for Terrain & its Objects
+  packageVersion: 3.9.1
+  assetPath: Assets/InTerra/HRDP/Shaders/InTerra_TerrainLit_2023_1.shader
+  uploadId: 657975
