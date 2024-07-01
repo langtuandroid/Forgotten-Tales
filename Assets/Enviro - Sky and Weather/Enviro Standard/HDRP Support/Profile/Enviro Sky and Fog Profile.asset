@@ -81,10 +81,10 @@ MonoBehaviour:
     m_Value: 64
   m_VolumetricFogBudget:
     m_OverrideState: 0
-    m_Value: 0.33
+    m_Value: 0.25
   m_ResolutionDepthRatio:
     m_OverrideState: 0
-    m_Value: 0.666
+    m_Value: 0.5
   directionalLightsOnly:
     m_OverrideState: 0
     m_Value: 0
@@ -312,7 +312,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: -5460815618790042378}
-  - {fileID: 5396244263233550034}
   - {fileID: -8592333089731512715}
   - {fileID: -446164826460301618}
   - {fileID: -1323065170749892838}
