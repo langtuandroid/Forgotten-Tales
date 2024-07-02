@@ -480,6 +480,43 @@ PlayerSettings:
       m_Height: 1024
       m_Kind: 0
       m_SubKind: 
+  - m_BuildTarget: tvOS
+    m_Icons:
+    - m_Textures: []
+      m_Width: 1280
+      m_Height: 768
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 800
+      m_Height: 480
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 400
+      m_Height: 240
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 4640
+      m_Height: 1440
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 2320
+      m_Height: 720
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 3840
+      m_Height: 1440
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 1920
+      m_Height: 720
+      m_Kind: 1
+      m_SubKind: 
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
@@ -820,19 +857,19 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    EmbeddedLinux: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    GameCoreXboxOne: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    Nintendo Switch: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    PS4: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    PS5: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    QNX: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    Stadia: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    Standalone: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;__DIGGER__;CREST_OCEAN;MAGICACLOTH2;TERRAINPACKAGE_EXIST;HDRPPACKAGE_EXIST
-    VisionOS: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    WebGL: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    XboxOne: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
-    tvOS: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2
+    Android: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    EmbeddedLinux: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    GameCoreXboxOne: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    Nintendo Switch: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    PS4: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    PS5: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    QNX: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    Stadia: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    Standalone: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;__DIGGER__;CREST_OCEAN;MAGICACLOTH2;TERRAINPACKAGE_EXIST;HDRPPACKAGE_EXIST;ENVIRO_HDRP
+    VisionOS: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    WebGL: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    XboxOne: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
+    tvOS: ENVIRO_HD;ENVIRO_LW;UNITY_POST_PROCESSING_STACK_V2;ENVIRO_HDRP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
