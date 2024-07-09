@@ -15,8 +15,7 @@ Material:
   - _TERRAIN_BLEND_HEIGHT
   - _TERRAIN_DISTANCEBLEND
   - _TERRAIN_INSTANCED_PERPIXEL_NORMAL
-  - _TERRAIN_NORMAL_IN_MASK
-  - _TERRAIN_PARALLAX
+  - _TERRAIN_TRIPLANAR
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _NORMALMAP_TANGENT_SPACE
@@ -198,7 +197,7 @@ Material:
     - _EnableInstancedPerPixelNormal: 1
     - _EnergyConservingSpecularColor: 1
     - _Gamma: 0
-    - _HT_cover: 0.6
+    - _HT_cover: 0.569
     - _HT_distance_scale: 0.25
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
@@ -209,7 +208,7 @@ Material:
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _HeightTransition: 0
+    - _HeightTransition: 7
     - _HeightmapBlending: 1
     - _InvTilingScale: 1
     - _Ior: 1.5
@@ -281,7 +280,7 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _TriplanarOneToAllSteep: 0
-    - _TriplanarSharpness: 9
+    - _TriplanarSharpness: 5.46
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
@@ -300,7 +299,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _HT_distance: {r: 3, g: 10, b: 0, a: 25}
+    - _HT_distance: {r: 0, g: 7.3255196, b: 0, a: 25}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _MipMapFade: {r: 4, g: 15, b: 0, a: 30}
