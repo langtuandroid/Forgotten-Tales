@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.8482398, g: 0.8773662, b: 0.9356972, a: 0.7893076}
+    m_Value: {r: 0.71208525, g: 0.71208525, b: 0.71208525, a: 0.7503783}
   maxFogDistance:
     m_OverrideState: 0
     m_Value: 5000
@@ -45,10 +45,10 @@ MonoBehaviour:
     m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 51
+    m_Value: 1001.057
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 10000
+    m_Value: 1000
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
@@ -106,7 +106,7 @@ MonoBehaviour:
     m_Value: 999
   cloudType:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   skyAmbientMode:
     m_OverrideState: 1
     m_Value: 1
@@ -171,7 +171,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 12.790999
+    m_Value: 12.151449
   compensation:
     m_OverrideState: 0
     m_Value: 0
