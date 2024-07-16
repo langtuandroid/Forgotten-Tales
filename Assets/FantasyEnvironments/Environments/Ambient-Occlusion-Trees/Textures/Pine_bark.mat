@@ -95,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask0:
-        m_Texture: {fileID: 2800000, guid: ba6dd8e7becdd124380f3a72bd00f812, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask1:
@@ -103,11 +103,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 37bf2efdabb269f4b891344af9233d9e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask3:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 32c701976955001429b200f33da0d4a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask4:
@@ -135,7 +135,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal0:
-        m_Texture: {fileID: 2800000, guid: a34dbb64b78c32a478a651544f7585a8, type: 3}
+        m_Texture: {fileID: 2800000, guid: eb70932bab3d971408c011dbb45767a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal1:
@@ -143,11 +143,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal2:
-        m_Texture: {fileID: 2800000, guid: 42cb397a189254e56ae3b0f2810ed493, type: 3}
+        m_Texture: {fileID: 2800000, guid: 297a3ddfc901318499e15b3a0c8ec74d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal3:
-        m_Texture: {fileID: 2800000, guid: a04cbd0fa61ae47dab52b15deb5911b3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 83f03b3c2b2d5df40898d8c2123239ae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal4:
@@ -187,7 +187,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat0:
-        m_Texture: {fileID: 2800000, guid: d2af4f613f58aa04e9bcf494a8ec1b58, type: 3}
+        m_Texture: {fileID: 2800000, guid: e318f31bebce62d48a648da3f8ba56c9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat1:
@@ -195,11 +195,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat2:
-        m_Texture: {fileID: 2800000, guid: ea8bb7003956346468f013bc168c1e31, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8e255f57d15705e488d4db5425239501, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat3:
-        m_Texture: {fileID: 2800000, guid: bce1ec8748bec4a0fa21b52f14826bd7, type: 3}
+        m_Texture: {fileID: 2800000, guid: e18ae12a8286a594bae0eb036ce9bc12, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat4:
@@ -312,10 +312,10 @@ Material:
     - _HasMask: 0
     - _HeightTransition: 7
     - _HeightmapBlending: 1
-    - _LayerHasMask0: 1
+    - _LayerHasMask0: 0
     - _LayerHasMask1: 0
-    - _LayerHasMask2: 0
-    - _LayerHasMask3: 0
+    - _LayerHasMask2: 1
+    - _LayerHasMask3: 1
     - _LayerHasMask4: 0
     - _LayerHasMask5: 0
     - _LayerHasMask6: 0
@@ -449,7 +449,7 @@ Material:
     - _MaskMapRemapOffset6: {r: 0, g: 0, b: 0, a: 0}
     - _MaskMapRemapOffset7: {r: 0, g: 0, b: 0, a: 0}
     - _MaskMapRemapScale: {r: 1, g: 1, b: 1, a: 1}
-    - _MaskMapRemapScale0: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskMapRemapScale0: {r: 1, g: 1, b: 1, a: 0.12109059}
     - _MaskMapRemapScale1: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale2: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale3: {r: 1, g: 1, b: 1, a: 1}
@@ -461,7 +461,7 @@ Material:
     - _MipMapFade: {r: 3, g: 15, b: 0, a: 35}
     - _NormIntersect: {r: 0, g: 0.6, b: 0, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Specular0: {r: 0, g: 0, b: 0, a: 0}
+    - _Specular0: {r: 1, g: 1, b: 1, a: 0}
     - _Specular1: {r: 0, g: 0, b: 0, a: 0}
     - _Specular2: {r: 0, g: 0, b: 0, a: 0}
     - _Specular3: {r: 0, g: 0, b: 0, a: 0}
@@ -469,10 +469,10 @@ Material:
     - _Specular5: {r: 0, g: 0, b: 0, a: 0}
     - _Specular6: {r: 0, g: 0, b: 0, a: 0}
     - _Specular7: {r: 0, g: 0, b: 0, a: 0}
-    - _SplatUV0: {r: 3, g: 3, b: 0, a: 0}
+    - _SplatUV0: {r: 1, g: 1, b: 0, a: 0}
     - _SplatUV1: {r: 2, g: 2, b: 0, a: 0}
-    - _SplatUV2: {r: 3, g: 3, b: 0, a: 0}
-    - _SplatUV3: {r: 2, g: 2, b: 0, a: 0}
+    - _SplatUV2: {r: 1, g: 1, b: 0, a: 0}
+    - _SplatUV3: {r: 1, g: 1, b: 0, a: 0}
     - _SplatUV4: {r: 1, g: 1, b: 0, a: 0}
     - _SplatUV5: {r: 1, g: 1, b: 0, a: 0}
     - _SplatUV6: {r: 1, g: 1, b: 0, a: 0}
@@ -480,12 +480,12 @@ Material:
     - _TerrainHeightmapScale: {r: 0.48828125, g: 1200.0549, b: 0.48828125, a: 600}
     - _TerrainMetallic: {r: 0, g: 0, b: 0, a: 0}
     - _TerrainMetallic1: {r: 0, g: 0, b: 0, a: 0}
-    - _TerrainNormalScale: {r: 1, g: 1, b: 1, a: 1}
+    - _TerrainNormalScale: {r: 2, g: 1, b: 1, a: 1}
     - _TerrainNormalScale1: {r: 1, g: 1, b: 1, a: 1}
     - _TerrainNormalTintDistance: {r: 3, g: 10, b: 0, a: 25}
     - _TerrainPosition: {r: 0, g: -506, b: 0, a: 0}
     - _TerrainSize: {r: 1000, g: 600, b: 1000, a: 0}
-    - _TerrainSmoothness: {r: 0, g: 0, b: 0, a: 0}
+    - _TerrainSmoothness: {r: 1, g: 0, b: 1, a: 1}
     - _TerrainSmoothness1: {r: 0, g: 0, b: 0, a: 0}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
