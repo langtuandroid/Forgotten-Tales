@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.8482398, g: 0.8773662, b: 0.9356972, a: 0.7893076}
+    m_Value: {r: 0.61386114, g: 0.61386114, b: 0.61386114, a: 0.7571948}
   maxFogDistance:
     m_OverrideState: 0
     m_Value: 5000
@@ -45,10 +45,10 @@ MonoBehaviour:
     m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 51
+    m_Value: 495.057
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 10000
+    m_Value: 1000
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
@@ -81,10 +81,10 @@ MonoBehaviour:
     m_Value: 64
   m_VolumetricFogBudget:
     m_OverrideState: 0
-    m_Value: 0.33
+    m_Value: 0.25
   m_ResolutionDepthRatio:
     m_OverrideState: 0
-    m_Value: 0.666
+    m_Value: 0.5
   directionalLightsOnly:
     m_OverrideState: 0
     m_Value: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 12.790999
+    m_Value: 11.596687
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -312,10 +312,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: -5460815618790042378}
-  - {fileID: 5396244263233550034}
   - {fileID: -8592333089731512715}
   - {fileID: -446164826460301618}
   - {fileID: -1323065170749892838}
+  - {fileID: 0}
 --- !u!114 &5396244263233550034
 MonoBehaviour:
   m_ObjectHideFlags: 3
