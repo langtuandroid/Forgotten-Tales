@@ -305,7 +305,7 @@ Material:
     - _MipMapFade: {r: 4, g: 15, b: 0, a: 30}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _TerrainNormalTintDistance: {r: 3, g: 10, b: 0, a: 25}
-    - _TerrainSizeXZPosY: {r: 1000, g: 1000, b: 0, a: 0}
+    - _TerrainSizeXZPosY: {r: 1000, g: 1000, b: -506, a: 0}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}

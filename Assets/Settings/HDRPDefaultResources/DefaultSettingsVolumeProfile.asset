@@ -20,6 +20,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2384dbf2c1c420f45a792fbc315fbfb1, type: 2}
     - {fileID: 11400000, guid: 5aead7ebb2074754d825e3e8dfdfbc27, type: 2}
     - {fileID: 11400000, guid: 62b4dc30a3536964d89b763e6ac18cf9, type: 2}
+    - {fileID: 11400000, guid: dec8c2e05fee7ee488940010f9e0b0bc, type: 2}
 --- !u!114 &-7089757308646879465
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -320,7 +321,7 @@ MonoBehaviour:
   active: 1
   skyType:
     m_OverrideState: 1
-    m_Value: 999
+    m_Value: 1
   cloudType:
     m_OverrideState: 1
     m_Value: 0
