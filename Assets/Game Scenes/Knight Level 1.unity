@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 0
-  m_FogColor: {r: 0.74353623, g: 0.79275775, b: 0.891333, a: 0.75009835}
+  m_FogColor: {r: 0.71208525, g: 0.71208525, b: 0.71208525, a: 0.7503783}
   m_FogMode: 2
-  m_FogDensity: 0.00005
+  m_FogDensity: 0.0002
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.45037502, g: 0.5239657, b: 0.5740074, a: 0.750625}
+  m_AmbientSkyColor: {r: 0.38843456, g: 0.3975039, b: 0.40367106, a: 0.6695183}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4455.3364, g: 4543.2114, b: 4853.594, a: 1}
+  m_IndirectSpecularColor: {r: 2699.883, g: 2740.094, b: 2851.055, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12598,6 +12598,44 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.028493982, y: -0.4682628, z: -0.0031807497}
     m_Extent: {x: 0.066311, y: 0.8509227, z: 0.061875276}
   m_DirtyAABB: 0
+--- !u!84 &638739364
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 0
+  m_ColorFormat: 48
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &648821210
 GameObject:
   m_ObjectHideFlags: 0
@@ -14102,7 +14140,7 @@ WindZone:
   m_Enabled: 1
   m_Mode: 0
   m_Radius: 20
-  m_WindMain: 0.27499998
+  m_WindMain: 0.50399995
   m_WindTurbulence: 0.2
   m_WindPulseMagnitude: 0.2
   m_WindPulseFrequency: 0.01
@@ -16183,44 +16221,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0010516196, y: -0.00025171041, z: -0.017557934}
     m_Extent: {x: 0.3905775, y: 0.5655167, z: 0.1729229}
   m_DirtyAABB: 0
---- !u!84 &1337625611
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 48
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &1349182378
 GameObject:
   m_ObjectHideFlags: 0
@@ -21724,7 +21724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: 94ffe4588b85ed542b2608df93952ec5, type: 2}
   profileLoaded: 1
-  Player: {fileID: 0}
+  Player: {fileID: 1710504680}
   PlayerCamera: {fileID: 1105594920}
   AssignInRuntime: 0
   PlayerTag: Player
@@ -21734,33 +21734,33 @@ MonoBehaviour:
   started: 1
   serverMode: 0
   cloudsConfig:
-    ambientSkyColorIntensity: 0.85
-    scatteringCoef: 1
-    edgeDarkness: 0.5
+    ambientSkyColorIntensity: 0.7
+    scatteringCoef: 1.2
+    edgeDarkness: 0.466
     baseErosionIntensity: 0
-    detailErosionIntensity: 0.3
-    density: 1
-    lightStepModifier: 0.2
-    lightVariance: 0
-    coverage: 0.1
-    lightAbsorbtion: 0.25
+    detailErosionIntensity: 0.4
+    density: 0.3
+    lightStepModifier: 0.5
+    lightVariance: 0.5
+    coverage: 0.502
+    lightAbsorbtion: 0.2
     coverageType: 1
     raymarchingScale: 1
-    cloudType: 1
-    cirrusAlpha: 0.763
+    cloudType: 0.886
+    cirrusAlpha: 0
     cirrusCoverage: 0
-    cirrusColorPow: 5
+    cirrusColorPow: 1
     flatCloudsDensity: 2.5
     flatCloudsAbsorbtion: 2.5
     flatCloudsDirectLightIntensity: 15
     flatCloudsAmbientLightIntensity: 1
     flatCloudsHGPhase: 0.9
     flatCoverage: 0
-    particleLayer1Alpha: 0
-    particleLayer1Brightness: 0.75
+    particleLayer1Alpha: 0.392
+    particleLayer1Brightness: 1
     particleLayer1ColorPow: 2
-    particleLayer2Alpha: 0.022
-    particleLayer2Brightness: 0.75
+    particleLayer2Alpha: 0.67
+    particleLayer2Brightness: 1
     particleLayer2ColorPow: 2
     particleCloudsOverwrite: 0
   thunder: 0
@@ -23372,7 +23372,7 @@ MonoBehaviour:
     heightFog: 1
     height: 50
     heightFogIntensity: 1
-    heightDensity: 0
+    heightDensity: 0.25
     noiseIntensity: 1
     noiseIntensityOffset: 0
     noiseScale: 0.0032
@@ -23410,7 +23410,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    skyFogIntensity: 1
+    skyFogIntensity: 0.834
     fogExposure: 1
     useEnviroGroundFog: 0
     useHDRPFog: 1
@@ -23794,23 +23794,23 @@ MonoBehaviour:
   LST: 641.30035
   lastHourUpdate: 12
   hourTime: 0
-  cloudAnim: {x: 0.1, y: -0.64639384, z: 0.82009363}
-  cloudFlatBaseAnim: {x: 0, y: 0.9177488}
-  cloudFlatDetailAnim: {x: 0, y: -0.32196838}
-  cloudAnimNonScaled: {x: 0, y: -9.083418}
-  cirrusAnim: {x: 0, y: 0.12474454}
-  windIntensity: 0.27499998
+  cloudAnim: {x: 0.1, y: -0.560857, z: 0.3391474}
+  cloudFlatBaseAnim: {x: 0, y: 0.32600462}
+  cloudFlatDetailAnim: {x: 0, y: -0.6888305}
+  cloudAnimNonScaled: {x: 0, y: -9.675178}
+  cirrusAnim: {x: 0, y: -0.12773415}
+  windIntensity: 0.50399995
   shadowIntensityMod: 0
   interiorMode: 0
   lastInteriorZone: {fileID: 0}
   updateFogDensity: 1
   customFogColor: {r: 0, g: 0, b: 0, a: 1}
   customFogIntensity: 0
-  currentWeatherSkyMod: {r: 0, g: 0, b: 0, a: 0}
-  currentWeatherLightMod: {r: 1, g: 1, b: 1, a: 0}
-  currentWeatherFogMod: {r: 0.49704722, g: 0.5935759, b: 0.7868924, a: 0.50991625}
+  currentWeatherSkyMod: {r: 0.67603123, g: 0.67603123, b: 0.67603123, a: 0.6749219}
+  currentWeatherLightMod: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 0.8767595}
+  currentWeatherFogMod: {r: 0.44573146, g: 0.44573146, b: 0.44573146, a: 0.51944995}
   customMoonPhase: -0.30006918
-  globalVolumeLightIntensity: 0.2
+  globalVolumeLightIntensity: 0.25
   MainLight: {fileID: 1999172000}
   AdditionalLight: {fileID: 0}
   MoonTransform: {fileID: 765654509}
@@ -23861,7 +23861,7 @@ MonoBehaviour:
     WeatherPrefabs: []
     zones:
     - {fileID: 1611473980}
-    startWeatherPreset: {fileID: 11400000, guid: 6524b8dacc08e22498c3e84ab332332e,
+    startWeatherPreset: {fileID: 11400000, guid: 42e49e2754d7128429d41c49a27e16af,
       type: 2}
     currentActiveZone: {fileID: 1611473980}
     currentActiveWeatherPrefab: {fileID: 0}
@@ -23870,14 +23870,14 @@ MonoBehaviour:
     lastActiveWeatherPreset: {fileID: 0}
     VFXHolder: {fileID: 689341187}
     SFXHolder: {fileID: 1694472472}
-    wetness: 4e-44
-    curWetness: 4e-44
+    wetness: 0.2853411
+    curWetness: 0.2853411
     snowStrength: 4e-44
     curSnowStrength: 4e-44
     thundersfx: 0
     currentAudioSource: {fileID: 185923492}
     weatherFullyChanged: 0
-    currentTemperature: 19.996012
+    currentTemperature: 9.996014
     temperatureModifier: 0
   Seasons:
     calcSeasons: 0
@@ -23896,13 +23896,13 @@ MonoBehaviour:
     particleClouds: {fileID: 167873808}
   Fog:
     skyFogStart: 0
-    skyFogHeight: 5
-    skyFogIntensity: 1
+    skyFogHeight: 0.84
+    skyFogIntensity: 0.834
     skyFogStrength: 1
-    scatteringStrenght: 1.25
-    sunBlocking: 1
+    scatteringStrenght: 1
+    sunBlocking: 0
     moonIntensity: 1
-    hdrpRelativeFogHeight: 50
+    hdrpRelativeFogHeight: 500
   LightShafts:
     sunLightShafts: 0
     moonLightShafts: 0
@@ -23917,9 +23917,9 @@ MonoBehaviour:
   setCameraClearFlags: 1
   frames: 0
   lightingUpdateEachFrames: 10
-  currentSceneExposureMod: 1
-  currentSkyExposureMod: 1
-  currentLightIntensityMod: 1
+  currentSceneExposureMod: 0.95
+  currentSkyExposureMod: 0.95
+  currentLightIntensityMod: 0.3
   visualEnvironment: {fileID: -5460815618790042378, guid: 39e8ac69a93cb9d49930b16be3afc316,
     type: 2}
   enviroHDRPSky: {fileID: -2685188130549672831, guid: 39e8ac69a93cb9d49930b16be3afc316,
@@ -23953,7 +23953,7 @@ MonoBehaviour:
   currentActiveCloudsQualityPreset: {fileID: 11400000, guid: a836f7605a4cd2b46977d5caf63945fc,
     type: 2}
   cloudsRenderTarget: {fileID: 0}
-  weatherMap: {fileID: 1337625611}
+  weatherMap: {fileID: 638739364}
   satRenderTarget: {fileID: 0}
   cloudShadowMap: {fileID: 0}
   skyMat: {fileID: 0}
@@ -23971,9 +23971,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5645e9ade0cb43a4d90fd7bcadb4da94, type: 2}
   - {fileID: 11400000, guid: dd96ee074d8e2954fbab9072fa28b851, type: 2}
   selectedCloudsQuality: 3
-  blurDistance: 1000
-  blurIntensity: 0.401
-  blurSkyIntensity: 5
+  blurDistance: 179
+  blurIntensity: 0.513
+  blurSkyIntensity: 4.09
   floatingPointOriginAnchor: {fileID: 0}
   floatingPointOriginMod: {x: 0, y: 0, z: 0}
   ressources:
@@ -30761,13 +30761,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 99130.46
+  m_Intensity: 29739.139
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.2
+  m_VolumetricDimmer: 0.25
   m_LightUnit: 2
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
@@ -30909,7 +30909,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.9703659, g: 0.9338985, b: 0.88966537, a: 1}
-  m_Intensity: 99130.46
+  m_Intensity: 29739.139
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
