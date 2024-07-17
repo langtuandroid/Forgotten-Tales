@@ -236,7 +236,8 @@ MonoBehaviour:
     - rid: 4340017088909803670
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_GameObject: {fileID: 3135502183617210236, guid: 68f683b4490a54597b56f34fbfd3205c, type: 3}
+        m_GameObject: {fileID: 3135502183617210236, guid: 68f683b4490a54597b56f34fbfd3205c,
+          type: 3}
     - rid: 4340017089319273026
       type: {class: GetAudioClip, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
@@ -254,7 +255,8 @@ MonoBehaviour:
       data:
         m_Value: 1.2
     - rid: 4340017104564519079
-      type: {class: InstructionCameraShakeBurst, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionCameraShakeBurst, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -292,14 +294,15 @@ MonoBehaviour:
     - rid: 4416566920576762832
       type: {class: ClipDefault, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
-        m_Time: 0.4888889
+        m_Time: 0.51111114
         m_Duration: 0
         m_Instructions:
           m_Instructions:
             m_Instructions:
             - rid: 4416566920576762833
     - rid: 4416566920576762833
-      type: {class: InstructionMeleeResetHitsBuffer, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      type: {class: InstructionMeleeResetHitsBuffer, ns: GameCreator.Runtime.Melee,
+        asm: GameCreator.Runtime.Melee}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1

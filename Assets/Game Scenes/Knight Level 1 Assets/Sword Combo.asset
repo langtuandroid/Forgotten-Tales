@@ -20,7 +20,7 @@ MonoBehaviour:
     - rid: 7887305271265722422
       type: {class: ComboTree, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Dirty: 28912
+        m_Dirty: 3546
         m_Data:
           m_Keys: 3d67d4a5ccd35c519fda3666ff95cd58
           m_Values:
@@ -111,7 +111,7 @@ MonoBehaviour:
         m_Conditions:
           m_Conditions:
             m_Conditions: []
-        m_Skill: {fileID: 11400000, guid: 11abc52ef96992a4c99696dfc961dd35, type: 2}
+        m_Skill: {fileID: 11400000, guid: 414d1cd7f80114569b4a05862a99ad5a, type: 2}
     - rid: 7887305271265722432
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 

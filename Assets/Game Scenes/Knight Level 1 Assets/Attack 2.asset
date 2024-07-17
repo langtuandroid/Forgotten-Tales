@@ -92,13 +92,13 @@ MonoBehaviour:
       - rid: 2486810732801818776
   m_SpeedAnticipation:
     m_Property:
-      rid: 2486810732801818777
+      rid: 7887305271265723134
   m_SpeedStrike:
     m_Property:
-      rid: 2486810732801818778
+      rid: 7887305271265723135
   m_SpeedRecovery:
     m_Property:
-      rid: 2486810732801818779
+      rid: 7887305271265723136
   m_PoiseArmor:
     m_Property:
       rid: 2486810732801818780
@@ -188,15 +188,6 @@ MonoBehaviour:
       type: {class: TrackDefault, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
         m_Clips: []
-    - rid: 2486810732801818777
-      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 2486810732801818778
-      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 2486810732801818779
-      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 2486810732801818780
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -209,8 +200,8 @@ MonoBehaviour:
     - rid: 2486810732801818783
       type: {class: ClipMeleePhases, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Time: 0.25
-        m_Duration: 0.3
+        m_Time: 0.29166666
+        m_Duration: 0.16666667
     - rid: 2486810732801818784
       type: {class: ClipMeleeCancel, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
@@ -247,3 +238,15 @@ MonoBehaviour:
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 1
+    - rid: 7887305271265723134
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1.5
+    - rid: 7887305271265723135
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1.2
+    - rid: 7887305271265723136
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1.2
