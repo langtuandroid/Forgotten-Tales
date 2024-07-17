@@ -76,7 +76,7 @@ MonoBehaviour:
         rid: 2486810732801818770
   m_Animation: {fileID: 7400000, guid: bedd5488a6057164cb81d2c917db3837, type: 2}
   m_Mask: {fileID: 31900000, guid: 8d52dc3c194bb2c4f8ed45668235b30d, type: 2}
-  m_Motion: 1
+  m_Motion: 2
   m_SyncReaction: {fileID: 0}
   m_Gravity: 1
   m_TransitionIn: 0.1

@@ -15,7 +15,7 @@ Material:
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _NORMALMAP
-  - _TERRAIN_DISTANCEBLEND
+  - _TERRAIN_MASK_MAPS
   m_InvalidKeywords:
   - _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 1
@@ -55,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control:
-        m_Texture: {fileID: 5081010452796210697, guid: 2adbe02179596704099413239fef692c,
+        m_Texture: {fileID: -6902658995238172418, guid: 4e04081448e22f14b9ab7fd38e7c5f57,
           type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -84,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask0:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bd4c61d030690814097a2076498d1c75, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask1:
@@ -120,7 +120,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal0:
-        m_Texture: {fileID: 2800000, guid: eb70932bab3d971408c011dbb45767a9, type: 3}
+        m_Texture: {fileID: 2800000, guid: a8a2fc863627f464e838ba616a1d5789, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal1:
@@ -168,7 +168,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat0:
-        m_Texture: {fileID: 2800000, guid: e318f31bebce62d48a648da3f8ba56c9, type: 3}
+        m_Texture: {fileID: 2800000, guid: b39336e67b68db14aa4a8a7f883e5aff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat1:
@@ -322,13 +322,13 @@ Material:
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _HeightTransition: 7
-    - _HeightmapBlending: 1
+    - _HeightTransition: 60
+    - _HeightmapBlending: 0
     - _InvTilingScale: 1
     - _Ior: 1.5
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
-    - _LayerHasMask0: 0
+    - _LayerHasMask0: 1
     - _LayerHasMask1: 0
     - _LayerHasMask2: 1
     - _LayerHasMask3: 1
@@ -452,7 +452,7 @@ Material:
     - _DiffuseRemapOffset5: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseRemapOffset6: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseRemapOffset7: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffuseRemapScale0: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseRemapScale0: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
     - _DiffuseRemapScale1: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseRemapScale2: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseRemapScale3: {r: 1, g: 1, b: 1, a: 1}
@@ -482,7 +482,7 @@ Material:
     - _MaskMapRemapOffset6: {r: 0, g: 0, b: 0, a: 0}
     - _MaskMapRemapOffset7: {r: 0, g: 0, b: 0, a: 0}
     - _MaskMapRemapScale: {r: 1, g: 1, b: 1, a: 1}
-    - _MaskMapRemapScale0: {r: 1, g: 1, b: 1, a: 0.12109059}
+    - _MaskMapRemapScale0: {r: 1, g: 1, b: 3, a: 1}
     - _MaskMapRemapScale1: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale2: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale3: {r: 1, g: 1, b: 1, a: 1}
@@ -493,7 +493,7 @@ Material:
     - _MipMapFade: {r: 3, g: 15, b: 0, a: 35}
     - _NormIntersect: {r: 0, g: 0.6, b: 0, a: 1}
     - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
-    - _Specular0: {r: 1, g: 1, b: 1, a: 0}
+    - _Specular0: {r: 0, g: 0, b: 0, a: 0}
     - _Specular1: {r: 0, g: 0, b: 0, a: 0}
     - _Specular2: {r: 0, g: 0, b: 0, a: 0}
     - _Specular3: {r: 0, g: 0, b: 0, a: 0}
@@ -511,13 +511,13 @@ Material:
     - _SplatUV6: {r: 1, g: 1, b: 0, a: 0}
     - _SplatUV7: {r: 1, g: 1, b: 0, a: 0}
     - _TRANSPARENCY: {r: 1, g: 1, b: 1, a: 1}
-    - _TerrainHeightmapScale: {r: 0.48828125, g: 1200.0549, b: 0.48828125, a: 600}
+    - _TerrainHeightmapScale: {r: 1.953125, g: 1200.0549, b: 1.953125, a: 600}
     - _TerrainMetallic: {r: 0, g: 0, b: 0, a: 0}
     - _TerrainMetallic1: {r: 0, g: 0, b: 0, a: 0}
     - _TerrainNormalScale: {r: 2, g: 1, b: 1, a: 1}
     - _TerrainNormalScale1: {r: 1, g: 1, b: 1, a: 1}
     - _TerrainNormalTintDistance: {r: 3, g: 10, b: 0, a: 25}
-    - _TerrainPosition: {r: 0, g: -506, b: 0, a: 0}
+    - _TerrainPosition: {r: 0, g: 0, b: 0, a: 0}
     - _TerrainSize: {r: 1000, g: 600, b: 1000, a: 0}
     - _TerrainSmoothness: {r: 1, g: 0, b: 1, a: 1}
     - _TerrainSmoothness1: {r: 0, g: 0, b: 0, a: 0}

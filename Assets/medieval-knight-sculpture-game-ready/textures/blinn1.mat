@@ -94,7 +94,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 2800000, guid: 6927b66db620b39439cba52c4bff1f78, type: 3}
+        m_Texture: {fileID: 2800000, guid: ada59a0aeb8ab03499399297a4d27c8f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -209,8 +209,8 @@ Material:
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
     - _Metallic: 0.5
-    - _MetallicRemapMax: 0.8402644
-    - _MetallicRemapMin: 0.36353618
+    - _MetallicRemapMax: 0.91215646
+    - _MetallicRemapMin: 0
     - _Mode: 0
     - _NormalMapSpace: 0
     - _NormalScale: 0.15

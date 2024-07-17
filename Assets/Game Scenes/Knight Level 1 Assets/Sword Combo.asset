@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6965c45d6044a989f046010528d201e, type: 3}
+  m_Name: Sword Combo
+  m_EditorClassIdentifier: 
+  m_Combos:
+    rid: 7887305271265722422
+  references:
+    version: 2
+    RefIds:
+    - rid: 7887305271265722422
+      type: {class: ComboTree, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Dirty: 28912
+        m_Data:
+          m_Keys: 3d67d4a5ccd35c519fda3666ff95cd58
+          m_Values:
+          - m_Id: -1512806595
+            m_Value:
+              rid: 7887305271265722423
+          - m_Id: 1365038028
+            m_Value:
+              rid: 7887305271265722429
+          - m_Id: 1714870943
+            m_Value:
+              rid: 7887305271265722431
+          - m_Id: 1489868287
+            m_Value:
+              rid: 7887305271265722433
+        m_Nodes:
+          m_Keys: 3d67d4a5ccd35c519fda3666ff95cd58
+          m_Values:
+          - m_Id: -1512806595
+            m_Parent: -1
+            m_Children: ccd35c51
+          - m_Id: 1365038028
+            m_Parent: -1512806595
+            m_Children: 9fda3666
+          - m_Id: 1714870943
+            m_Parent: 1365038028
+            m_Children: ff95cd58
+          - m_Id: 1489868287
+            m_Parent: 1714870943
+            m_Children: 
+        m_Roots: 3d67d4a5
+    - rid: 7887305271265722423
+      type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_IsDisabled: 0
+        m_Key: 0
+        m_Mode: 0
+        m_When: 0
+        m_AutoRelease: 0
+        m_Timeout:
+          m_Property:
+            rid: 7887305271265722424
+        m_HasDelay:
+          m_IsEnabled: 0
+          m_Value: 0.5
+        m_Conditions:
+          m_Conditions:
+            m_Conditions: []
+        m_Skill: {fileID: 11400000, guid: f86661475cbd9724295a34c64bb4e349, type: 2}
+    - rid: 7887305271265722424
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 7887305271265722429
+      type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_IsDisabled: 0
+        m_Key: 0
+        m_Mode: 0
+        m_When: 0
+        m_AutoRelease: 0
+        m_Timeout:
+          m_Property:
+            rid: 7887305271265722430
+        m_HasDelay:
+          m_IsEnabled: 0
+          m_Value: 0.5
+        m_Conditions:
+          m_Conditions:
+            m_Conditions: []
+        m_Skill: {fileID: 11400000, guid: 291572257d0405b40a010a871051607a, type: 2}
+    - rid: 7887305271265722430
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 7887305271265722431
+      type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_IsDisabled: 0
+        m_Key: 0
+        m_Mode: 0
+        m_When: 0
+        m_AutoRelease: 0
+        m_Timeout:
+          m_Property:
+            rid: 7887305271265722432
+        m_HasDelay:
+          m_IsEnabled: 0
+          m_Value: 0.5
+        m_Conditions:
+          m_Conditions:
+            m_Conditions: []
+        m_Skill: {fileID: 11400000, guid: 11abc52ef96992a4c99696dfc961dd35, type: 2}
+    - rid: 7887305271265722432
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 7887305271265722433
+      type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_IsDisabled: 0
+        m_Key: 0
+        m_Mode: 0
+        m_When: 0
+        m_AutoRelease: 0
+        m_Timeout:
+          m_Property:
+            rid: 7887305271265722434
+        m_HasDelay:
+          m_IsEnabled: 0
+          m_Value: 0.5
+        m_Conditions:
+          m_Conditions:
+            m_Conditions: []
+        m_Skill: {fileID: 11400000, guid: f361e47f3e326ff4e81c81345a64019b, type: 2}
+    - rid: 7887305271265722434
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 

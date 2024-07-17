@@ -41,7 +41,7 @@ MonoBehaviour:
   m_OnDodge:
     m_Instructions:
       m_Instructions: []
-  m_Shield: {fileID: 0}
+  m_Shield: {fileID: 11400000, guid: 7008bdedc18662a4eb09a5ec76735081, type: 2}
   m_State:
     m_StateType: 2
     m_AnimationClip:
@@ -54,8 +54,8 @@ MonoBehaviour:
     m_Property:
       rid: 2486810732801818704
   m_Combos:
-    m_CombosFrom: 1
-    m_CombosAsset: {fileID: 0}
+    m_CombosFrom: 0
+    m_CombosAsset: {fileID: 11400000, guid: 88aa5dafbfadc9841838905df23b465c, type: 2}
     m_CombosEmbed:
       rid: 2486810732801818705
   references:
