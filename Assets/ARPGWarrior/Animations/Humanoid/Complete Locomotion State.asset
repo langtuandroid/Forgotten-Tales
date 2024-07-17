@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StateMask: {fileID: 0}
   m_Entry:
-    m_EntryClip: {fileID: 0}
+    m_EntryClip: {fileID: 7400000, guid: 546f2ef8f4f862546855270b060718cf, type: 2}
     m_EntryMask: {fileID: 0}
-    m_RootMotion: 0
+    m_RootMotion: 1
   m_Exit:
     m_ExitClip: {fileID: 0}
     m_ExitMask: {fileID: 0}

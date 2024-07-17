@@ -74,9 +74,9 @@ MonoBehaviour:
     m_HitEffect:
       m_Property:
         rid: 2486810732801818770
-  m_Animation: {fileID: 7400000, guid: 95c2c57177f5da14f854248d4f5ec56d, type: 2}
-  m_Mask: {fileID: 0}
-  m_Motion: 0
+  m_Animation: {fileID: 7400000, guid: bedd5488a6057164cb81d2c917db3837, type: 2}
+  m_Mask: {fileID: 31900000, guid: 8d52dc3c194bb2c4f8ed45668235b30d, type: 2}
+  m_Motion: 1
   m_SyncReaction: {fileID: 0}
   m_Gravity: 1
   m_TransitionIn: 0.1
@@ -174,13 +174,11 @@ MonoBehaviour:
     - rid: 2486810732801818773
       type: {class: TrackMeleeRootMotionPosition, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Clips:
-        - rid: 2486810732801818785
+        m_Clips: []
     - rid: 2486810732801818774
       type: {class: TrackMeleeRootMotionRotation, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Clips:
-        - rid: 2486810732801818786
+        m_Clips: []
     - rid: 2486810732801818775
       type: {class: TrackMeleeMotionWarping, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
@@ -211,23 +209,13 @@ MonoBehaviour:
     - rid: 2486810732801818783
       type: {class: ClipMeleePhases, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Time: 0.3
+        m_Time: 0.25
         m_Duration: 0.3
     - rid: 2486810732801818784
       type: {class: ClipMeleeCancel, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
         m_Time: 0.20000002
         m_Duration: 0.5
-    - rid: 2486810732801818785
-      type: {class: ClipMeleeRootMotionPosition, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
-      data:
-        m_Time: 0.3
-        m_Duration: 0
-    - rid: 2486810732801818786
-      type: {class: ClipMeleeRootMotionRotation, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
-      data:
-        m_Time: 0.3
-        m_Duration: 0
     - rid: 2486810732801818787
       type: {class: ClipMeleeMotionWarping, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
