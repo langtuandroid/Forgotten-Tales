@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 7456108909491050271}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.268, y: -0.005, z: -1.474}
+  m_LocalPosition: {x: 0.268, y: -0.005, z: -1.394}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -104,9 +104,9 @@ MonoBehaviour:
     - rid: 2486810732801818797
       type: {class: StrikerCapsule, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Position: {x: 0, y: 0, z: 0}
-        m_Height: 0.9
-        m_Radius: 0.05
+        m_Position: {x: -0.12, y: -0.01, z: 0}
+        m_Height: 1.2
+        m_Radius: 0.3
 --- !u!1 &8475419919795598692
 GameObject:
   m_ObjectHideFlags: 0
