@@ -14284,44 +14284,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4196339538218146894, guid: abe54b9cef21b6949af135f16de12dd4, type: 2}
---- !u!84 &604580886
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 48
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &604773486
 GameObject:
   m_ObjectHideFlags: 0
@@ -16234,7 +16196,7 @@ MonoBehaviour:
           m_Animation: {fileID: 0}
         m_AnimationSpeed: 0.75
         m_TransitionIn: 0.1
-        m_TransitionOut: 0.2
+        m_TransitionOut: 0
     - rid: 7887305271265722766
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
@@ -18089,6 +18051,44 @@ Transform:
   - {fileID: 1057275811}
   m_Father: {fileID: 1703084366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &1284496262
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 0
+  m_ColorFormat: 48
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1312177659
 GameObject:
   m_ObjectHideFlags: 0
@@ -25952,11 +25952,11 @@ MonoBehaviour:
   LST: 641.30035
   lastHourUpdate: 12
   hourTime: 0
-  cloudAnim: {x: 0.1, y: -0.60973865, z: 0.76353365}
-  cloudFlatBaseAnim: {x: 0, y: 0.71238893}
-  cloudFlatDetailAnim: {x: 0, y: 0.86996764}
-  cloudAnimNonScaled: {x: 0, y: -13.289277}
-  cirrusAnim: {x: 0, y: 0.33031857}
+  cloudAnim: {x: 0.1, y: -0.93425655, z: -0.7876093}
+  cloudFlatBaseAnim: {x: 0, y: 0.27911532}
+  cloudFlatDetailAnim: {x: 0, y: -0.8631266}
+  cloudAnimNonScaled: {x: 0, y: -13.722507}
+  cirrusAnim: {x: 0, y: 0.14545414}
   windIntensity: 0.50399995
   shadowIntensityMod: 0
   interiorMode: 0
@@ -26111,7 +26111,7 @@ MonoBehaviour:
   currentActiveCloudsQualityPreset: {fileID: 11400000, guid: a836f7605a4cd2b46977d5caf63945fc,
     type: 2}
   cloudsRenderTarget: {fileID: 0}
-  weatherMap: {fileID: 604580886}
+  weatherMap: {fileID: 1284496262}
   satRenderTarget: {fileID: 0}
   cloudShadowMap: {fileID: 0}
   skyMat: {fileID: 0}
@@ -26781,6 +26781,7 @@ Transform:
   - {fileID: 2064667900}
   - {fileID: 782942808}
   - {fileID: 920668683}
+  - {fileID: 1841531748}
   - {fileID: 1217996983}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 83.262, z: 0}
@@ -27001,6 +27002,171 @@ Transform:
   - {fileID: 2088794701}
   m_Father: {fileID: 1118781196}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1841531747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1841531748}
+  - component: {fileID: 1841531749}
+  - component: {fileID: 1841531750}
+  m_Layer: 0
+  m_Name: Sprint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1841531748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841531747}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1710504682}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1841531749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841531747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 2486811051130093694
+  m_TriggerEvent:
+    rid: 7887305271265722761
+  references:
+    version: 2
+    RefIds:
+    - rid: 2486811051130093694
+      type: {class: InstructionCharacterPropertyMoveSpeed, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 2486811051130093695
+        m_Speed:
+          m_Operation: 0
+          m_Value:
+            m_Property:
+              rid: 2486811051130093696
+        m_Transition:
+          m_Duration: 0
+          m_Easing: 3
+          m_Time: 0
+          m_WaitToComplete: 1
+    - rid: 2486811051130093695
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2486811051130093696
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 10
+    - rid: 7887305271265722761
+      type: {class: EventOnInputButton, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Button:
+          m_Input:
+            rid: 7887305271265722764
+        m_MinDistance:
+          m_MinDistance: 0
+          m_To:
+            m_Property:
+              rid: 7887305271265722763
+          m_Radius: 2
+          m_Offset: {x: 0, y: 0, z: 0}
+    - rid: 7887305271265722763
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 7887305271265722764
+      type: {class: InputButtonKeyboardPress, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Key: 72
+--- !u!114 &1841531750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841531747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 2486811051130093703
+  m_TriggerEvent:
+    rid: 2486811051130093698
+  references:
+    version: 2
+    RefIds:
+    - rid: 2486811051130093698
+      type: {class: EventOnInputButton, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Button:
+          m_Input:
+            rid: 2486811051130093707
+        m_MinDistance:
+          m_MinDistance: 0
+          m_To:
+            m_Property:
+              rid: 2486811051130093700
+          m_Radius: 2
+          m_Offset: {x: 0, y: 0, z: 0}
+    - rid: 2486811051130093700
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2486811051130093703
+      type: {class: InstructionCharacterPropertyMoveSpeed, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 2486811051130093704
+        m_Speed:
+          m_Operation: 0
+          m_Value:
+            m_Property:
+              rid: 2486811051130093705
+        m_Transition:
+          m_Duration: 0
+          m_Easing: 3
+          m_Time: 0
+          m_WaitToComplete: 1
+    - rid: 2486811051130093704
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2486811051130093705
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 4
+    - rid: 2486811051130093707
+      type: {class: InputButtonKeyboardRelease, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Key: 72
 --- !u!1 &1854116747
 GameObject:
   m_ObjectHideFlags: 0
@@ -33761,74 +33927,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 77396145}
   m_SourcePrefab: {fileID: 100100000, guid: 526ff38c5a9e1154694e38bdd9b1ed3f, type: 3}
---- !u!1001 &5089101602916620325
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 102.82309
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -7.133
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 70.4025
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7680243
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.64042073
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 79.646
-      objectReference: {fileID: 0}
-    - target: {fileID: 483573782022668646, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1008295483700354012, guid: cd6f66edeb74da248abf63fdb8a38a89,
-        type: 3}
-      propertyPath: m_Name
-      value: T-Pose
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cd6f66edeb74da248abf63fdb8a38a89, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -33847,4 +33945,3 @@ SceneRoots:
   - {fileID: 1710504682}
   - {fileID: 450756538}
   - {fileID: 270548831}
-  - {fileID: 5089101602916620325}

@@ -141,8 +141,8 @@ Material:
     - _StencilRefDepth: 8
     - _StencilRefGBuffer: 10
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 8
-    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskGBuffer: 15
     - _SupportDecals: 1
     - _TransparentZWrite: 0
     - _ZTestDepthEqualForOpaque: 3
