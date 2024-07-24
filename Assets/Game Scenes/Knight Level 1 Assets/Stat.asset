@@ -10,42 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c4be981628d4fcd80364b5052329739, type: 3}
-  m_Name: Health
+  m_Name: Stat
   m_EditorClassIdentifier: 
   m_ID:
     m_String: stat-id
   m_Data:
-    m_Base: 1
-    m_Formula: {fileID: 11400000, guid: 7ce93958fbb4245b3b8f67110d22b125, type: 2}
+    m_Base: 10
+    m_Formula: {fileID: 11400000, guid: 98a99b6c489184294baede2218189fb7, type: 2}
   m_Info:
     m_Name:
       m_Property:
-        rid: 2486810895452209748
+        rid: 2362886216516370446
     m_Acronym:
       m_Property:
-        rid: 2486810895452209749
+        rid: 2362886216516370447
     m_Description:
       m_Property:
-        rid: 2486810895452209750
+        rid: 2362886216516370448
     m_Icon:
       m_Property:
-        rid: 2486810895452209751
+        rid: 2362886216516370449
     m_Color: {r: 1, g: 1, b: 1, a: 1}
   references:
     version: 2
     RefIds:
-    - rid: 2486810895452209748
+    - rid: 2362886216516370446
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: Stat Name
-    - rid: 2486810895452209749
+    - rid: 2362886216516370447
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: STA
-    - rid: 2486810895452209750
+    - rid: 2362886216516370448
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: Description...
-    - rid: 2486810895452209751
+    - rid: 2362886216516370449
       type: {class: GetSpriteNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
