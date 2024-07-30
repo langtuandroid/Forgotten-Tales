@@ -75,12 +75,12 @@ MonoBehaviour:
       m_Property:
         rid: 7887305271265722979
   m_Animation: {fileID: 7400000, guid: 2d8c23500b7febb40817e91ff0f45352, type: 2}
-  m_Mask: {fileID: 31900000, guid: 8d52dc3c194bb2c4f8ed45668235b30d, type: 2}
+  m_Mask: {fileID: 31900000, guid: b8ab7b7a90a475f429ace6939072cd6b, type: 2}
   m_Motion: 2
   m_SyncReaction: {fileID: 0}
   m_Gravity: 1
   m_TransitionIn: 0.1
-  m_TransitionOut: 0.25
+  m_TransitionOut: 3.56
   m_MeleeSequence:
     m_Sequence:
       m_Tracks:
@@ -92,13 +92,13 @@ MonoBehaviour:
       - rid: 7887305271265722985
   m_SpeedAnticipation:
     m_Property:
-      rid: 7887305271265722986
+      rid: 2486811208588198319
   m_SpeedStrike:
     m_Property:
-      rid: 7887305271265722987
+      rid: 2486811208588198321
   m_SpeedRecovery:
     m_Property:
-      rid: 7887305271265722988
+      rid: 2486811208588198322
   m_PoiseArmor:
     m_Property:
       rid: 7887305271265722989
@@ -124,6 +124,18 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 2486811208588198319
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 2
+    - rid: 2486811208588198321
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 2486811208588198322
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
     - rid: 7887305271265722969
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
@@ -190,15 +202,6 @@ MonoBehaviour:
       type: {class: TrackDefault, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
         m_Clips: []
-    - rid: 7887305271265722986
-      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 7887305271265722987
-      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 7887305271265722988
-      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 7887305271265722989
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 

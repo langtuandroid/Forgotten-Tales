@@ -17,6 +17,36 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 2486811208588198318
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.5
+    - rid: 2486811208588198459
+      type: {class: ConditionCharacterIsGrounded, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Character:
+          m_Property:
+            rid: 2486811208588198460
+    - rid: 2486811208588198460
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2486811208588198465
+      type: {class: ConditionCharacterIsMoving, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 0
+        m_Character:
+          m_Property:
+            rid: 2486811208588198466
+    - rid: 2486811208588198466
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
     - rid: 6917345936142499906
       type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
@@ -71,22 +101,20 @@ MonoBehaviour:
         m_IsDisabled: 0
         m_Key: 0
         m_Mode: 1
-        m_When: 0
-        m_AutoRelease: 1
+        m_When: 1
+        m_AutoRelease: 0
         m_Timeout:
           m_Property:
-            rid: 6917345936142500193
+            rid: 2486811208588198318
         m_HasDelay:
           m_IsEnabled: 0
           m_Value: 0.5
         m_Conditions:
           m_Conditions:
-            m_Conditions: []
+            m_Conditions:
+            - rid: 2486811208588198459
+            - rid: 2486811208588198465
         m_Skill: {fileID: 11400000, guid: ff246d49a010f674aa3710a51ee52649, type: 2}
-    - rid: 6917345936142500193
-      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 1
     - rid: 7887305271265722422
       type: {class: ComboTree, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:

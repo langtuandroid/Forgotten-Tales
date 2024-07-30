@@ -152,6 +152,8 @@ GameObject:
   - component: {fileID: 8171131911301369052}
   - component: {fileID: 7238779443758551060}
   - component: {fileID: 8399487012265367117}
+  - component: {fileID: 8432142203492349719}
+  - component: {fileID: 3592899381438205811}
   m_Layer: 0
   m_Name: Mid_Rock_1
   m_TagString: Untagged
@@ -247,3 +249,55 @@ MonoBehaviour:
   m_lastImpostor: {fileID: 2581324913346142539}
   m_folderPath: Assets/Game Scenes/HuntressLevel 1 Assets/
   m_cutMode: 0
+--- !u!114 &8432142203492349719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337633346149504090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824b6f25573464a1f9fbc2ebe0229e83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Params:
+    maxConvexHulls: 32
+    resolution: 50000
+    concavity: 0.0025
+    planeDownsampling: 4
+    convexhullApproximation: 4
+    alpha: 0.05
+    beta: 0.05
+    pca: 1
+    mode: 0
+    maxNumVerticesPerCH: 64
+    minVolumePerCH: 0.0001
+  m_colliders:
+  - {fileID: 3592899381438205811}
+  m_isTrigger: 0
+  m_material: {fileID: 0}
+  m_showColliders: 0
+  m_colliderAsset: {fileID: 11400000, guid: 236b5f75ac2430f43a7a8c54a0f61d1a, type: 2}
+--- !u!64 &3592899381438205811
+MeshCollider:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337633346149504090}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2420684263103718839, guid: 236b5f75ac2430f43a7a8c54a0f61d1a, type: 2}
