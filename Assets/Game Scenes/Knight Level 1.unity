@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1975.7659, g: 2053.3284, b: 2156.2346, a: 1}
+  m_IndirectSpecularColor: {r: 1975.7698, g: 2053.3206, b: 2156.2268, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -21480,6 +21480,10 @@ MonoBehaviour:
   m_Script: {fileID: 1939281098}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Entries:
+  - id: 0
+    category: 0
+    gameObject: {fileID: 1861859526}
 --- !u!4 &878604264
 Transform:
   m_ObjectHideFlags: 19
@@ -23304,44 +23308,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1016844048}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1021546688
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 48
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &1026111782
 GameObject:
   m_ObjectHideFlags: 19
@@ -24412,12 +24378,10 @@ MonoBehaviour:
   FirstInit: 1
   MaterialTerrain:
     keys:
-    - {fileID: 2100000, guid: d3ad70c162b894b41bcc1221fac9a976, type: 2}
     - {fileID: 2100000, guid: a6de8390f99e4cd4080c85c036cb76e9, type: 2}
     - {fileID: 2100000, guid: 7c360468ba343d44b816f65d7ce2e40c, type: 2}
     - {fileID: 2100000, guid: 62e6fe2a51c5e034ba12489f6a59fbd0, type: 2}
     values:
-    - {fileID: 648166558}
     - {fileID: 648166558}
     - {fileID: 648166558}
     - {fileID: 648166558}
@@ -32322,6 +32286,44 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00004130602, y: 0.26223147, z: 0.02075304}
     m_Extent: {x: 0.3852173, y: 0.14457037, z: 0.19198631}
   m_DirtyAABB: 0
+--- !u!84 &1490110998
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 0
+  m_ColorFormat: 48
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1492764876
 GameObject:
   m_ObjectHideFlags: 0
@@ -39653,11 +39655,11 @@ MonoBehaviour:
   LST: 596.17236
   lastHourUpdate: 9
   hourTime: 0
-  cloudAnim: {x: 0.1, y: -0.27441773, z: 0.90001416}
-  cloudFlatBaseAnim: {x: 0, y: 0.30970237}
-  cloudFlatDetailAnim: {x: 0, y: -0.67456084}
-  cloudAnimNonScaled: {x: 0, y: -39.695267}
-  cirrusAnim: {x: 0, y: -0.9358032}
+  cloudAnim: {x: 0.1, y: -0.8430744, z: 0.035801247}
+  cloudFlatBaseAnim: {x: 0, y: 0.24974258}
+  cloudFlatDetailAnim: {x: 0, y: -0.9040503}
+  cloudAnimNonScaled: {x: 0, y: -41.75462}
+  cirrusAnim: {x: 0, y: 0.18548441}
   windIntensity: 0.50399995
   shadowIntensityMod: 0
   interiorMode: 0
@@ -39812,7 +39814,7 @@ MonoBehaviour:
   currentActiveCloudsQualityPreset: {fileID: 11400000, guid: a836f7605a4cd2b46977d5caf63945fc,
     type: 2}
   cloudsRenderTarget: {fileID: 0}
-  weatherMap: {fileID: 1021546688}
+  weatherMap: {fileID: 1490110998}
   satRenderTarget: {fileID: 0}
   cloudShadowMap: {fileID: 0}
   skyMat: {fileID: 0}

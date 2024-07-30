@@ -16,6 +16,7 @@ Material:
   - _DISABLE_SSR_TRANSPARENT
   - _LAYERS_EIGHT
   - _NORMALMAP
+  - _OBJECT_TRIPLANAR
   - _TERRAIN_DISTANCEBLEND
   - _TERRAIN_NORMAL_IN_MASK
   m_InvalidKeywords:
@@ -131,7 +132,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal2:
-        m_Texture: {fileID: 2800000, guid: 297a3ddfc901318499e15b3a0c8ec74d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 42cb397a189254e56ae3b0f2810ed493, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal3:
@@ -143,7 +144,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal5:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9d4515cff1ba84d16b9396c09b31acb9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal6:
@@ -179,7 +180,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat2:
-        m_Texture: {fileID: 2800000, guid: 8e255f57d15705e488d4db5425239501, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7b0f63dbb90dd4a1aa84185fab284731, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat3:
@@ -191,7 +192,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat5:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4eadcc55dbc734dd0a3dc14999a572cc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat6:
@@ -378,7 +379,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Sharpness: 30
+    - _Sharpness: 55.1
     - _Smoothness: 0
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -449,10 +450,10 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseRemapOffset0: {r: 0, g: 0, b: 0, a: 0}
     - _DiffuseRemapOffset1: {r: 1, g: 0, b: 0, a: 0}
-    - _DiffuseRemapOffset2: {r: -0.54, g: 0, b: 0, a: 0}
+    - _DiffuseRemapOffset2: {r: 0, g: 0, b: 0, a: 0}
     - _DiffuseRemapOffset3: {r: 1, g: 0, b: 0, a: 0}
     - _DiffuseRemapOffset4: {r: 0, g: 0, b: 0, a: 0}
-    - _DiffuseRemapOffset5: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseRemapOffset5: {r: 0, g: 0, b: 0, a: 0}
     - _DiffuseRemapOffset6: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseRemapOffset7: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseRemapScale0: {r: 1, g: 1, b: 1, a: 1}
@@ -470,7 +471,7 @@ Material:
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _HT_distance: {r: 0, g: 7.3351207, b: 0, a: 25}
-    - _Intersection: {r: -0.59590626, g: 1.6659093, b: -4, a: 5}
+    - _Intersection: {r: 0.46772993, g: 2.7295475, b: -4, a: 5}
     - _Intersection2: {r: 0.3, g: 0.6, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
@@ -490,7 +491,7 @@ Material:
     - _MaskMapRemapScale2: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale3: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale4: {r: 1, g: 1, b: 1, a: 1}
-    - _MaskMapRemapScale5: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskMapRemapScale5: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale6: {r: 0, g: 0, b: 0, a: 0}
     - _MaskMapRemapScale7: {r: 0, g: 0, b: 0, a: 0}
     - _MipMapFade: {r: 5, g: 20, b: -5, a: 35}
@@ -498,7 +499,7 @@ Material:
     - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
     - _Specular0: {r: 0, g: 0, b: 0, a: 1}
     - _Specular1: {r: 1, g: 1, b: 1, a: 0}
-    - _Specular2: {r: 1, g: 1, b: 1, a: 0}
+    - _Specular2: {r: 0, g: 0, b: 0, a: 0}
     - _Specular3: {r: 0, g: 0, b: 0, a: 0}
     - _Specular4: {r: 0, g: 0, b: 0, a: 0}
     - _Specular5: {r: 0, g: 0, b: 0, a: 0}
@@ -507,10 +508,10 @@ Material:
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _SplatUV0: {r: 3, g: 3, b: 0, a: 0}
     - _SplatUV1: {r: 1, g: 1, b: 0, a: 0}
-    - _SplatUV2: {r: 1, g: 1, b: 0, a: 0}
+    - _SplatUV2: {r: 2, g: 2, b: 0, a: 0}
     - _SplatUV3: {r: 2, g: 2, b: 0, a: 0}
     - _SplatUV4: {r: 1, g: 1, b: 0, a: 0}
-    - _SplatUV5: {r: 1, g: 1, b: 0, a: 0}
+    - _SplatUV5: {r: 2, g: 2, b: 0, a: 0}
     - _SplatUV6: {r: 1, g: 1, b: 0, a: 0}
     - _SplatUV7: {r: 1, g: 1, b: 0, a: 0}
     - _TRANSPARENCY: {r: 1, g: 1, b: 1, a: 1}
@@ -522,7 +523,7 @@ Material:
     - _TerrainNormalTintDistance: {r: 3, g: 10, b: 0, a: 25}
     - _TerrainPosition: {r: -1000, g: 0, b: -500, a: 0}
     - _TerrainSize: {r: 1000, g: 600, b: 1000, a: 0}
-    - _TerrainSmoothness: {r: 0.129, g: 0, b: 1, a: 1}
+    - _TerrainSmoothness: {r: 0.129, g: 0, b: 0, a: 1}
     - _TerrainSmoothness1: {r: 1, g: 0, b: 0, a: 0}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
