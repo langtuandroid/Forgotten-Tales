@@ -140,7 +140,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal4:
-        m_Texture: {fileID: 2800000, guid: c5dc3a539900ab7449f7bcd10186e331, type: 3}
+        m_Texture: {fileID: 2800000, guid: a04cbd0fa61ae47dab52b15deb5911b3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal5:
@@ -188,7 +188,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat4:
-        m_Texture: {fileID: 2800000, guid: 6aab93b9087589c4192d2624f87ae3a9, type: 3}
+        m_Texture: {fileID: 2800000, guid: bce1ec8748bec4a0fa21b52f14826bd7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat5:
@@ -501,7 +501,7 @@ Material:
     - _Specular1: {r: 1, g: 1, b: 1, a: 0}
     - _Specular2: {r: 0, g: 0, b: 0, a: 0}
     - _Specular3: {r: 0, g: 0, b: 0, a: 0}
-    - _Specular4: {r: 0, g: 0, b: 0, a: 0}
+    - _Specular4: {r: 0, g: 0, b: 0, a: 1}
     - _Specular5: {r: 0, g: 0, b: 0, a: 0}
     - _Specular6: {r: 0, g: 0, b: 0, a: 0}
     - _Specular7: {r: 0, g: 0, b: 0, a: 0}
@@ -510,21 +510,21 @@ Material:
     - _SplatUV1: {r: 1, g: 1, b: 0, a: 0}
     - _SplatUV2: {r: 2, g: 2, b: 0, a: 0}
     - _SplatUV3: {r: 2, g: 2, b: 0, a: 0}
-    - _SplatUV4: {r: 1, g: 1, b: 0, a: 0}
+    - _SplatUV4: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _SplatUV5: {r: 2, g: 2, b: 0, a: 0}
     - _SplatUV6: {r: 1, g: 1, b: 0, a: 0}
     - _SplatUV7: {r: 1, g: 1, b: 0, a: 0}
     - _TRANSPARENCY: {r: 1, g: 1, b: 1, a: 1}
     - _TerrainHeightmapScale: {r: 0.48828125, g: 1200.0549, b: 0.48828125, a: 600}
     - _TerrainMetallic: {r: 0, g: 0, b: 0, a: 0}
-    - _TerrainMetallic1: {r: 0, g: 0, b: 0, a: 0}
+    - _TerrainMetallic1: {r: 0.35, g: 0, b: 0, a: 0}
     - _TerrainNormalScale: {r: 1, g: 1, b: 1, a: 1}
     - _TerrainNormalScale1: {r: 1, g: 1, b: 1, a: 1}
     - _TerrainNormalTintDistance: {r: 3, g: 10, b: 0, a: 25}
     - _TerrainPosition: {r: -1000, g: 0, b: -500, a: 0}
     - _TerrainSize: {r: 1000, g: 600, b: 1000, a: 0}
     - _TerrainSmoothness: {r: 0.129, g: 0, b: 0, a: 1}
-    - _TerrainSmoothness1: {r: 1, g: 0, b: 0, a: 0}
+    - _TerrainSmoothness1: {r: 0, g: 0, b: 0, a: 0}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
