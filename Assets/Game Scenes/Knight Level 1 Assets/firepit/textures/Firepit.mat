@@ -123,7 +123,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask3:
-        m_Texture: {fileID: 2800000, guid: 32c701976955001429b200f33da0d4a9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask4:
@@ -366,7 +366,7 @@ Material:
     - _LayerHasMask0: 0
     - _LayerHasMask1: 0
     - _LayerHasMask2: 0
-    - _LayerHasMask3: 1
+    - _LayerHasMask3: 0
     - _LayerHasMask4: 0
     - _LayerHasMask5: 0
     - _LayerHasMask6: 0
@@ -539,7 +539,7 @@ Material:
     - _TerrainHeightmapScale: {r: 0.48828125, g: 1200.0549, b: 0.48828125, a: 600}
     - _TerrainMetallic: {r: 0, g: 0, b: 0, a: 0}
     - _TerrainMetallic1: {r: 0, g: 0, b: 0, a: 0}
-    - _TerrainNormalScale: {r: 1, g: 1, b: 1, a: 0}
+    - _TerrainNormalScale: {r: 1, g: 1, b: 1, a: 1}
     - _TerrainNormalScale1: {r: 1, g: 1, b: 1, a: 1}
     - _TerrainNormalTintDistance: {r: 3, g: 10, b: 0, a: 25}
     - _TerrainPosition: {r: -1000, g: 0, b: -500, a: 0}
