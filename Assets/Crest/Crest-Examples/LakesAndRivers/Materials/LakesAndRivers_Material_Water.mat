@@ -142,10 +142,10 @@ Material:
     - _CausticsDepthOfField: 0.33
     - _CausticsDistortionScale: 10
     - _CausticsDistortionStrength: 0.075
-    - _CausticsFocalDepth: 2
-    - _CausticsStrength: 3.2
-    - _CausticsTextureAverage: 0.07
-    - _CausticsTextureScale: 5
+    - _CausticsFocalDepth: 2.4
+    - _CausticsStrength: 3.99
+    - _CausticsTextureAverage: 0.233
+    - _CausticsTextureScale: 1.5
     - _ClipSurface: 0
     - _ClipUnderTerrain: 0
     - _CompileShaderWithDebugInfo: 0
@@ -195,7 +195,7 @@ Material:
     - _NormalsStrength: 0
     - _NormalsStrengthOverall: 1
     - _ObsoleteMessage: 0
-    - _Occlusion: 1
+    - _Occlusion: 0.506
     - _Offset: 0.00008
     - _OpaqueCullMode: 2
     - _OverrideReflectionCubemap: 0
@@ -219,17 +219,17 @@ Material:
     - _Roughness: 0.062
     - _S: 1
     - _SSSIntensityBase: 0
-    - _SSSIntensitySun: 0
+    - _SSSIntensitySun: 0.51
     - _SSSSunFalloff: 10.24
     - _ScatterColourShallowDepthFalloff: 2.57
     - _ScatterColourShallowDepthMax: 7
     - _Shadows: 0
     - _ShorelineFoamMinDepth: 0.27
     - _SkyDirectionality: 0.875
-    - _Smoothness: 0.9
+    - _Smoothness: 0.882
     - _SmoothnessFalloff: 0.5
-    - _SmoothnessFar: 0.765
-    - _SmoothnessFarDistance: 2000
+    - _SmoothnessFar: 0.872
+    - _SmoothnessFarDistance: 1132
     - _SmoothnessPower: 0.5
     - _Specular: 0.25
     - _SrcBlend: 1
@@ -289,7 +289,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _DepthFogDensity: {r: 0.3, g: 0.22, b: 0.3, a: 1}
+    - _DepthFogDensity: {r: 0.95, g: 0.95, b: 0.95, a: 0}
     - _Diffuse: {r: 0.050980397, g: 0.07058824, b: 0.20000002, a: 1}
     - _DiffuseGrazing: {r: 0.05098039, g: 0.069049396, b: 0.2, a: 1}
     - _DiffuseShadow: {r: 0.050980397, g: 0.07058824, b: 0.20000002, a: 1}
@@ -298,9 +298,9 @@ Material:
     - _FoamBubbleColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamWhiteColor: {r: 1, g: 0.99634784, b: 0.97199994, a: 0.6862745}
     - _SSSTint: {r: 0.07450979, g: 0.42745098, b: 0.39215687, a: 0}
-    - _ScatterColourBase: {r: 0, g: 0.06666665, b: 0.13333327, a: 0}
+    - _ScatterColourBase: {r: 0, g: 0.066666625, b: 0.13333324, a: 0.42745098}
     - _ScatterColourShadow: {r: 0, g: 0.03921569, b: 0.078431346, a: 0}
-    - _ScatterColourShallow: {r: 0, g: 0.06666667, b: 0.13333334, a: 0}
+    - _ScatterColourShallow: {r: 0, g: 0.06666665, b: 0.1333333, a: 1}
     - _SkyAwayFromSun: {r: 0.15419213, g: 0.22129796, b: 0.5372549, a: 1}
     - _SkyBase: {r: 0.55200005, g: 0.85242355, b: 1, a: 1}
     - _SkyTowardsSun: {r: 2.6390157, g: 1.8217498, b: 0.9236555, a: 1}
