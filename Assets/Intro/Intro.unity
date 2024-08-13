@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.077864684, g: 0.063707806, b: 0.03994981, a: 1}
+  m_IndirectSpecularColor: {r: 0.07786473, g: 0.063707836, b: 0.03994981, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10941,7 +10941,7 @@ MonoBehaviour:
   useMultithreading: 1
   previousSelection: {fileID: 0}
   unloaded: 1
-  sceneChanging: 0
+  sceneChanging: 1
   waitForPrevious: 0
   previousVolume: {fileID: 0}
   optimizeForMixedLighting: 0
@@ -10972,8 +10972,8 @@ MonoBehaviour:
   - {fileID: 762591440}
   prefabStage: {fileID: 0}
   quickEditingComponent: {fileID: 410271601}
-  dataPath: C:/Users/1026409/Documents/Projects/Forgotten Tales/Assets
-  workPath: C:/Users/1026409/Documents/Projects/Forgotten Tales/Assets\Magic Light
+  dataPath: C:/Users/1026409/Documents/Projects/Forgotten-Tales/Assets
+  workPath: C:/Users/1026409/Documents/Projects/Forgotten-Tales/Assets\Magic Light
     Probes
   workPathFound: 1
   localFinishedPositions: []
@@ -11002,7 +11002,7 @@ MonoBehaviour:
   innerVolumesObjects: []
   layerMasks: []
   transformedPoints: []
-  assetEditorPath: C:/Users/1026409/Documents/Projects/Forgotten Tales/Assets\Magic
+  assetEditorPath: C:/Users/1026409/Documents/Projects/Forgotten-Tales/Assets\Magic
     Light Probes/Editor/
   parentVolume: {fileID: 0}
   localOperationalDataLost: 1
@@ -26529,6 +26529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1275563267}
+  - component: {fileID: 1275563268}
   m_Layer: 0
   m_Name: Actions
   m_TagString: Untagged
@@ -26551,6 +26552,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1275563268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275563266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 2991513048708546583
+  m_TriggerEvent:
+    rid: 2991513048708546581
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 2991513048708546581
+      type: {class: EventOnInterval, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_TimeMode:
+          m_UpdateTime: 0
+        m_Interval:
+          m_Property:
+            rid: 2991513048708546587
+    - rid: 2991513048708546583
+      type: {class: InstructionCommonSceneLoad, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Scene:
+          m_Property:
+            rid: 2991513048708546584
+        m_Mode: 0
+        m_Async: 0
+        m_SceneEntries:
+          m_Entries:
+          - m_Target:
+              m_Property:
+                rid: -2
+            m_Location:
+              m_Property:
+                rid: -2
+    - rid: 2991513048708546584
+      type: {class: GetSceneAsset, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Scene:
+          m_Scene: {fileID: 102900000, guid: f11efdf7bef29544fa652b62e56e1b00, type: 3}
+          m_SceneName: Knight Level 1
+          m_SceneIndex: 2
+    - rid: 2991513048708546587
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 25
 --- !u!1 &1276943455 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1774415937585903116, guid: 65094e6184e25f64f8d5f6f699a62315,
@@ -28911,11 +28972,11 @@ MonoBehaviour:
   LST: 460.79092
   lastHourUpdate: 0
   hourTime: 0
-  cloudAnim: {x: 0.1, y: -0.53743124, z: -0.22037001}
-  cloudFlatBaseAnim: {x: 0, y: 0.7277215}
-  cloudFlatDetailAnim: {x: 0, y: 0.91635036}
-  cloudAnimNonScaled: {x: 0, y: -15.274075}
-  cirrusAnim: {x: 0, y: -0.51659596}
+  cloudAnim: {x: 0.1, y: 0.37566784, z: -0.017803028}
+  cloudFlatBaseAnim: {x: 0, y: 0.6189532}
+  cloudFlatDetailAnim: {x: 0, y: 0.48128515}
+  cloudAnimNonScaled: {x: 0, y: -15.382794}
+  cirrusAnim: {x: 0, y: -0.56300336}
   windIntensity: 0.24999999
   shadowIntensityMod: 0
   interiorMode: 0
@@ -29070,7 +29131,7 @@ MonoBehaviour:
   currentActiveCloudsQualityPreset: {fileID: 11400000, guid: a836f7605a4cd2b46977d5caf63945fc,
     type: 2}
   cloudsRenderTarget: {fileID: 0}
-  weatherMap: {fileID: 1825700716}
+  weatherMap: {fileID: 1430968093}
   satRenderTarget: {fileID: 0}
   cloudShadowMap: {fileID: 0}
   skyMat: {fileID: 0}
@@ -31299,6 +31360,44 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5216490034343295522, guid: 85a4a4f3529271e4db37c44baebee673, type: 3}
+--- !u!84 &1430968093
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 0
+  m_ColorFormat: 48
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1001 &1433124424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43246,44 +43345,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2213928723839622373, guid: 85a4a4f3529271e4db37c44baebee673, type: 3}
---- !u!84 &1825700716
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 48
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1001 &1829630931
 PrefabInstance:
   m_ObjectHideFlags: 0
