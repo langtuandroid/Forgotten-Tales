@@ -124,12 +124,12 @@ Material:
     - _EnableBakedWindMask: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableBranchWind: 0
-    - _EnableFlutter: 0
+    - _EnableFlutter: 1
     - _EnableFogOnTransparent: 1
     - _EnableProceduralPhase: 1
     - _ExcludeFromTUAndAA: 0
     - _FlutterMask: 1
-    - _FlutterSpeed: 1
+    - _FlutterSpeed: 0.05
     - _FlutterStrength: 0.1
     - _FlutterTiling: 0.1
     - _GlossMapScale: 1
@@ -137,8 +137,8 @@ Material:
     - _GlossyReflections: 1
     - _MainBendingPower: 1.2
     - _MainBendingSpeed: 1
-    - _MainBendingStrength: 0.2
-    - _MainScaleXZ: 0.1
+    - _MainBendingStrength: 0
+    - _MainScaleXZ: 0
     - _MaskVCChannel: 0
     - _Metallic: 0
     - _Mode: 3

@@ -156,7 +156,7 @@ Material:
     - _EnableBakedWindMask: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableBranchWind: 0
-    - _EnableFlutter: 0
+    - _EnableFlutter: 1
     - _EnableFogOnTransparent: 1
     - _EnableProceduralPhase: 1
     - _ExcludeFromTUAndAA: 0
@@ -167,10 +167,10 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _MainBendingPower: 1.2
-    - _MainBendingSpeed: 1
-    - _MainBendingStrength: 0.2
-    - _MainScaleXZ: 0.1
+    - _MainBendingPower: 0
+    - _MainBendingSpeed: 0.42
+    - _MainBendingStrength: 0.01
+    - _MainScaleXZ: 0.01
     - _MaskVCChannel: 0
     - _Metallic: 0
     - _Mode: 1
@@ -186,8 +186,8 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Rolling: 1
-    - _RollingDirectionalMask: 0.5
+    - _Rolling: 0
+    - _RollingDirectionalMask: 0
     - _RollingDisplacement: 0.3
     - _RollingProceduralStrength: 1
     - _Smoothness: 0
@@ -221,7 +221,7 @@ Material:
     - _UseShadowThreshold: 0
     - _VertexAO: 1
     - _VertexAOChannel: 3
-    - _WindMask: 1
+    - _WindMask: 0.1
     - _WindMaskFalloff: 0.75
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
