@@ -346,7 +346,7 @@ Material:
     - _LinkDetailsWithBase: 1
     - _METALNESS: 0
     - _MaterialID: 1
-    - _Metallic: 0
+    - _Metallic: 0.153
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _MipMapLevel: 0
@@ -379,8 +379,8 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Sharpness: 55.1
-    - _Smoothness: 0
+    - _Sharpness: 30
+    - _Smoothness: 0.153
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
@@ -471,7 +471,7 @@ Material:
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _HT_distance: {r: 0, g: 7.3351207, b: 0, a: 25}
-    - _Intersection: {r: 0.46772993, g: 2.7295475, b: -4, a: 5}
+    - _Intersection: {r: -3.7811797, g: 5, b: -4, a: 5}
     - _Intersection2: {r: 0.3, g: 0.6, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
@@ -495,7 +495,7 @@ Material:
     - _MaskMapRemapScale6: {r: 0, g: 0, b: 0, a: 0}
     - _MaskMapRemapScale7: {r: 0, g: 0, b: 0, a: 0}
     - _MipMapFade: {r: 5, g: 20, b: -5, a: 35}
-    - _NormIntersect: {r: 0, g: 0.6, b: 0, a: 1}
+    - _NormIntersect: {r: 0.39999998, g: 1, b: 0, a: 1}
     - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
     - _Specular0: {r: 0, g: 0, b: 0, a: 1}
     - _Specular1: {r: 1, g: 1, b: 1, a: 0}

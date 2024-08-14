@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7189996679442615654
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa486462e6be1764e89c788ba30e61f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DiffusionProfileReferences:
+  - {fileID: 11400000, guid: dec8c2e05fee7ee488940010f9e0b0bc, type: 2}
+  m_MaterialReferences: []
 --- !u!114 &-4853759795743081006
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -131,7 +146,7 @@ Material:
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
     - _DetailNormalMapScale: 1
-    - _DiffusionProfileHash: 0
+    - _DiffusionProfileHash: 2.483359
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
@@ -215,7 +230,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.7055019, g: 0.77205884, b: 0.5790441, a: 1}
-    - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
+    - _DiffusionProfileAsset: {r: -1.122857e+20, g: -1.8810598e+22, b: 2.5357973e-29,
+        a: -0.02159165}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _HueVariation: {r: 0, g: 0, b: 0, a: 0.1019608}
