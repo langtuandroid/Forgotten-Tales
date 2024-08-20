@@ -34,17 +34,47 @@ MonoBehaviour:
     - rid: 2486811208588198460
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 2486811208588198465
-      type: {class: ConditionCharacterIsMoving, ns: GameCreator.Runtime.VisualScripting,
+    - rid: 2991513212357181483
+      type: {class: ConditionInputKeyHeldDown, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Sign: 0
+        m_Key: 15
+    - rid: 2991513212357182069
+      type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_IsDisabled: 0
+        m_Key: 0
+        m_Mode: 0
+        m_When: 0
+        m_AutoRelease: 0
+        m_Timeout:
+          m_Property:
+            rid: 2991513212357182070
+        m_HasDelay:
+          m_IsEnabled: 0
+          m_Value: 0.5
+        m_Conditions:
+          m_Conditions:
+            m_Conditions:
+            - rid: 2991513212357182071
+        m_Skill: {fileID: 11400000, guid: 4f9aa73f25b2f4743be9dacab93cb2e6, type: 2}
+    - rid: 2991513212357182070
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2991513212357182071
+      type: {class: ConditionCharacterIsAirborne, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
         m_Character:
           m_Property:
-            rid: 2486811208588198466
-    - rid: 2486811208588198466
+            rid: 2991513212357182072
+    - rid: 2991513212357182072
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 6917345936142499906
@@ -98,9 +128,9 @@ MonoBehaviour:
     - rid: 6917345936142500190
       type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_IsDisabled: 0
+        m_IsDisabled: 1
         m_Key: 0
-        m_Mode: 1
+        m_Mode: 0
         m_When: 1
         m_AutoRelease: 0
         m_Timeout:
@@ -113,14 +143,13 @@ MonoBehaviour:
           m_Conditions:
             m_Conditions:
             - rid: 2486811208588198459
-            - rid: 2486811208588198465
         m_Skill: {fileID: 11400000, guid: ff246d49a010f674aa3710a51ee52649, type: 2}
     - rid: 7887305271265722422
       type: {class: ComboTree, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Dirty: 24171
+        m_Dirty: 62337
         m_Data:
-          m_Keys: 3d67d4a5ccd35c519fda3666ff95cd5890004de5280a71c7
+          m_Keys: 3d67d4a5ccd35c519fda3666ff95cd5890004de5280a71c793c89453
           m_Values:
           - m_Id: -1512806595
             m_Value:
@@ -140,8 +169,11 @@ MonoBehaviour:
           - m_Id: -948893144
             m_Value:
               rid: 6917345936142500190
+          - m_Id: 1402259603
+            m_Value:
+              rid: 2991513212357182069
         m_Nodes:
-          m_Keys: 3d67d4a5ccd35c519fda3666ff95cd5890004de5280a71c7
+          m_Keys: 3d67d4a5ccd35c519fda3666ff95cd5890004de5280a71c793c89453
           m_Values:
           - m_Id: -1512806595
             m_Parent: -1
@@ -161,7 +193,10 @@ MonoBehaviour:
           - m_Id: -948893144
             m_Parent: -1
             m_Children: 
-        m_Roots: 3d67d4a590004de5280a71c7
+          - m_Id: 1402259603
+            m_Parent: -1
+            m_Children: 
+        m_Roots: 3d67d4a590004de5280a71c793c89453
     - rid: 7887305271265722423
       type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
@@ -180,6 +215,7 @@ MonoBehaviour:
           m_Conditions:
             m_Conditions:
             - rid: 6917345936142500003
+            - rid: 2991513212357181483
         m_Skill: {fileID: 11400000, guid: f86661475cbd9724295a34c64bb4e349, type: 2}
     - rid: 7887305271265722424
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}

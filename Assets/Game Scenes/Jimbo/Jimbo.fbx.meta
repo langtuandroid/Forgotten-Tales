@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: 0d244080069b1124ba3555c9b1817b58
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HumanBody_standardSurface2
+    second: {fileID: 2100000, guid: 37107f5f6ea987944b63457ad989103b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,7 +21,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -40,6 +46,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -67,6 +74,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -80,7 +88,107 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Jimbo(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanBody:humanBody
+      parentName: Jimbo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanBody:transform7
+      parentName: HumanBody:humanBody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube1
+      parentName: Jimbo(Clone)
+      position: {x: -0, y: 1.7069643, z: 0.0058712596}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 23.732027, y: 23.732027, z: 23.732027}
+    - name: HumanBody:transform6
+      parentName: pCube1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder1
+      parentName: Jimbo(Clone)
+      position: {x: -0, y: 1.8288342, z: 0.024300605}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 13.612823, y: 0.32365128, z: 13.612823}
+    - name: HumanBody:transform5
+      parentName: pCylinder1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere1
+      parentName: Jimbo(Clone)
+      position: {x: 0.020164758, y: 1.7051367, z: 0.09482714}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.8346812, y: 1.8346812, z: 1.8346812}
+    - name: HumanBody:transform4
+      parentName: pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group
+      parentName: Jimbo(Clone)
+      position: {x: -0.020715218, y: 1.7051367, z: 0.09482712}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pSphere1
+      parentName: group
+      position: {x: -0.0000000023841857, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.8346812, y: 1.8346812, z: 1.8346812}
+    - name: HumanBody:transform3
+      parentName: pasted__pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group1
+      parentName: Jimbo(Clone)
+      position: {x: 0.023267293, y: 1.7051367, z: 0.10523075}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43559992, y: 0.43559992, z: 0.43559992}
+    - name: pasted__pSphere1
+      parentName: group1
+      position: {x: -0.0000000023841857, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.8346812, y: 1.8346812, z: 1.8346812}
+    - name: HumanBody:transform2
+      parentName: pasted__pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group2
+      parentName: Jimbo(Clone)
+      position: {x: -0.024276236, y: 1.7051367, z: 0.105230756}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__group1
+      parentName: group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43559992, y: 0.43559992, z: 0.43559992}
+    - name: pasted__pasted__pSphere1
+      parentName: pasted__group1
+      position: {x: -0.0000000023841857, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.8346812, y: 1.8346812, z: 1.8346812}
+    - name: HumanBody:transform1
+      parentName: pasted__pasted__pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HumanBody:humanBody1
+      parentName: Jimbo(Clone)
+      position: {x: -0, y: 1.0233428, z: 0.020345887}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -95,10 +203,11 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
