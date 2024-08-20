@@ -190,7 +190,7 @@ Material:
     - _SupportDecals: 0
     - _SurfaceType: 0
     - _TVEFlutterMask: 0
-    - _Thickness: 0.21
+    - _Thickness: 0.18
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
