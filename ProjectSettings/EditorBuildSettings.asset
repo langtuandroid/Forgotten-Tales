@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Intro/Intro.unity
     guid: b3bd33435311d7f4c80f1e1c9b6109e1
-  - enabled: 0
+  - enabled: 1
     path: Assets/Game Scenes/Knight Level 1.unity
     guid: f11efdf7bef29544fa652b62e56e1b00
   m_configObjects: {}
