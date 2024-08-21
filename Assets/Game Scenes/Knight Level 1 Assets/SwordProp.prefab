@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Target:
     m_Property:
-      rid: 2362886216516370457
+      rid: 6734840156080308235
   m_Stat: {fileID: 11400000, guid: fb4966b46993de24289bae7aa6f4362a, type: 2}
   m_Common:
     m_Icon: {fileID: 0}
@@ -83,8 +83,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 2362886216516370457
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+    - rid: 6734840156080308235
+      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
 --- !u!1 &7456108909491050271
 GameObject:
