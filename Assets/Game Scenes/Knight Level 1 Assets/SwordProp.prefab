@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6617818786961526639}
   - component: {fileID: 316918684349428033}
-  - component: {fileID: 2403050811247652424}
-  - component: {fileID: 3904995957800658012}
+  - component: {fileID: 977221875228286943}
   m_Layer: 0
   m_Name: SwordCollision
   m_TagString: Player
@@ -55,7 +54,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.11, y: 0.11, z: 0.8}
   m_Center: {x: 0.1, y: -0.05, z: 0.78}
---- !u!114 &2403050811247652424
+--- !u!114 &977221875228286943
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,100 +63,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2471590295256538348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Script: {fileID: 11500000, guid: ca908b463b690c440871462e6de255c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Instructions:
-    m_Instructions:
-    - rid: 8365428011093983794
-    - rid: 8365428011093983796
-  m_TriggerEvent:
-    rid: 8365428011093983793
-  references:
-    version: 2
-    RefIds:
-    - rid: 8365428011093983793
-      type: {class: EventOnEnable, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 8365428011093983794
-      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Seconds:
-          m_Property:
-            rid: 8365428011093983795
-        m_Mode:
-          m_UpdateTime: 0
-    - rid: 8365428011093983795
-      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 2
-    - rid: 8365428011093983796
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 8365428011093983804
-        m_Active:
-          m_Property:
-            rid: 8365428011093983798
-    - rid: 8365428011093983798
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 1
-    - rid: 8365428011093983804
-      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
---- !u!114 &3904995957800658012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2471590295256538348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Instructions:
-    m_Instructions:
-    - rid: 8365428011093983801
-  m_TriggerEvent:
-    rid: 8365428011093983800
-  references:
-    version: 2
-    RefIds:
-    - rid: 8365428011093983800
-      type: {class: EventTriggerEnterTag, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Tag:
-          m_Value: EnemyImpact
-    - rid: 8365428011093983801
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
-        asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 8365428011093983805
-        m_Active:
-          m_Property:
-            rid: 8365428011093983803
-    - rid: 8365428011093983803
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 0
-    - rid: 8365428011093983805
-      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
+  damageAmount: 100
 --- !u!1 &4140630393650123567
 GameObject:
   m_ObjectHideFlags: 0
