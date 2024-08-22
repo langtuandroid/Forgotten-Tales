@@ -147,8 +147,8 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 4
-  volumeLightIntensity: 0.065
-  shadowIntensityMod: 0
+  volumeLightIntensity: 0
+  shadowIntensityMod: -0.205
   heightFogDensity: 0
   SkyFogHeight: 0.45
   skyFogStart: 0.2
@@ -176,6 +176,6 @@ MonoBehaviour:
   blurDistance: 1006
   blurIntensity: 0.497
   blurSkyIntensity: 5
-  sceneExposureMod: 1
+  sceneExposureMod: 1.018
   skyExposureMod: 1
   lightIntensityMod: 1

@@ -130,14 +130,14 @@ Material:
     - _ExcludeFromTUAndAA: 0
     - _FlutterMask: 1
     - _FlutterSpeed: 1
-    - _FlutterStrength: 0.1
+    - _FlutterStrength: 0
     - _FlutterTiling: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _MainBendingPower: 1.2
     - _MainBendingSpeed: 1
-    - _MainBendingStrength: 0.2
+    - _MainBendingStrength: 0
     - _MainScaleXZ: 0.1
     - _MaskVCChannel: 0
     - _Metallic: 0
